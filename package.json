@@ -29,10 +29,6 @@
   "devDependencies": {
     "@babel/core": "^7.21.4",
     "@babel/eslint-parser": "^7.21.3",
-    "@turf/turf": "^6.5.0",
-    "cli-color": "^2.0.3",
-    "i18n-iso-countries": "^7.5.0",
-    "iso3166-2-db": "^2.3.10",
     "tap-spec": "^5.0.0",
     "tape": "^5.6.3"
   },
@@ -66,11 +62,8 @@
   },
   "scripts": {
     "test": "tape ./test/*spec.js | tap-spec",
-    "build": "node ./src/build.js",
     "lint": "eslint . --ext .js"
   },
   "version": "1.0.8",
-  "dependencies": {
-    "just-clone": "^6.2.0"
-  }
+  "dependencies": {}
 }
